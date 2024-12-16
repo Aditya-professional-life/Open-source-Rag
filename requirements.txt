@@ -1,8 +1,9 @@
-langchain==0.0.239  # Ensure compatibility
-langchain_community  # Automatically installs the needed package
+langchain==0.0.239
+langchain_community
 streamlit
 streamlit-chat
 sentence-transformers
 faiss-cpu
 python-docx
-PyPDF2
+pypdf  # Add this line for PDF support
+PyPDF2  # Retain this if used elsewhere, but `pypdf` is the replacement
