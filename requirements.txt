@@ -5,5 +5,5 @@ streamlit-chat
 sentence-transformers
 faiss-cpu
 python-docx
-pypdf  # Add this line for PDF support
-PyPDF2  # Retain this if used elsewhere, but `pypdf` is the replacement
+pypdf  # For PDF support
+PyPDF2  # Keep if necessary, although pypdf is a more updated PDF handling library
